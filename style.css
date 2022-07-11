@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* General Settings */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.btn {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #fff;
+    background-image: linear-gradient(
+        45deg,
+        lightsalmon,
+        tomato
+    );
+    padding: .8rem 1.7rem;
+    border: none;
+    border-radius: .35rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-flex > * {
+    margin: 0 2rem;
+    width: 50%;
+}
+
+.container-flex :first-child {
+    margin-left: 0;
+}
+
+.container-flex :last-child {
+    margin-right: 0;
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+.section__container {
+    max-width: 73.125rem;
+    padding: 0 .9375rem;
+    margin: 0 auto;
+}
+
+.section__heading {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    color: dimgray;
+}
+
+.content-status {
+    font-size: 1.15rem;
+    margin-bottom: .5rem;
+}
+
+/* Main Styles */
+.header {
+    background: url(images/top-banner.png) no-repeat;
+}
+
+.header__welcome {
+    font-size: 2.5rem;
+}
+
+.header__name {
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 2rem 0 1rem;
+}
+
+.header__name span {
+    color: orange;
+}
+
+.about {
+    background: url(images/dream-bg.png) no-repeat right;
+}
+
+.about__info {
+    padding-left: 2rem;
+}
+
+.experience {
+    background: url(images/exp-bg.png) no-repeat left;
+}
+
+.experience__content {
+    align-items: stretch;
+}
+
+.experience__card {
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    border-left: .5rem solid tomato;
+    box-shadow: 0 0 1rem .1rem rgba(0, 0, 0, .5);
+}
+
+.experience__card:last-child {
+    border-color: blue;
+}
+
+.experience__card-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.experience__card-status {
+    color: orange;
+}
+
+.footer {
+    text-align: center;
+}
